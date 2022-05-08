@@ -1,0 +1,15 @@
+<form method="post">
+    <div class="elem-group">
+      <label for="TITLE">Producto</label>
+      <input type="text" id="TITLE" name="Poduct Title" placeholder="Nombre del Producto" pattern=[A-Za-z0-9]{3,20} required>
+    </div>
+    <div class="elem-group">
+        <label for="PRICE">Precio</label>
+        <input type="number" id="PRICE" name="Poduct Price" placeholder="Precio del Producto"  required>
+      </div>
+    <div class="elem-group">
+      <label for="THUMBNAIL">Imagen</label>
+      <input type="url" id="THUMBNAIL" name="Product Thumbnail" placeholder="URL a imagen descriptiva"  required>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
